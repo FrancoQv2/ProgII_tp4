@@ -87,12 +87,12 @@ public class VentanaNuevo extends javax.swing.JFrame {
        
        trabajos.add(unTrabajo);
        
-       int l = 1 ;
+       int j = 1 ;
        System.out.println("\n La lista de trabajos es:\n");
        
        for (Trabajo i : trabajos){
-            System.out.println("\tTrabajo n°" + l + ": " + i.Titulo);
-            l++;
+            System.out.println("\tTrabajo n°" + j + ": " + i.Titulo);
+            j++;
         }
        
     }//GEN-LAST:event_jButton1ActionPerformed
