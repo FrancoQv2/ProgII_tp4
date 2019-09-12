@@ -83,7 +83,7 @@ public class VentanaNuevo extends javax.swing.JFrame {
         ventana Output el estado de la lista
         */
        Trabajo unTrabajo = new Trabajo();
-       unTrabajo.Titulo = jTextNuevo.getText();
+       unTrabajo.setTitulo(jTextNuevo.getText());
        
        trabajos.add(unTrabajo);
        
@@ -91,7 +91,7 @@ public class VentanaNuevo extends javax.swing.JFrame {
        System.out.println("\n La lista de trabajos es:\n");
        
        for (Trabajo i : trabajos){
-            System.out.println("\tTrabajo n°" + j + ": " + i.Titulo);
+            System.out.println("\tTrabajo n°" + j + ": " + i.getTitulo());
             j++;
         }
        

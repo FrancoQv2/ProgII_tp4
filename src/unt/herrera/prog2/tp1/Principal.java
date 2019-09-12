@@ -19,11 +19,11 @@ public class Principal {
         Trabajo unTrabajo4 = new Trabajo();
         Trabajo unTrabajo5 = new Trabajo();
         
-        unTrabajo1.Titulo = "Albañil";
-        unTrabajo2.Titulo = "Albañil con casco";
-        unTrabajo3.Titulo = "Administrativo";
-        unTrabajo4.Titulo = "Administrativo con casco";
-        unTrabajo5.Titulo = "Veterinario";
+        unTrabajo1.setTitulo("Albañil");
+        unTrabajo2.setTitulo("Albañil con casco");
+        unTrabajo3.setTitulo("Administrativo");
+        unTrabajo4.setTitulo("Administrativo con casco");
+        unTrabajo5.setTitulo("Veterinario");
         
         Trabajo[] vectorTrabajos;
         vectorTrabajos = new Trabajo[5];
@@ -38,7 +38,7 @@ public class Principal {
         
         int j = 1;
         for (Trabajo i : vectorTrabajos){
-            System.out.println("\tTrabajo n°" + j + ": " + i.Titulo);
+            System.out.println("\tTrabajo n°" + j + ": " + i.getTitulo());
             j++;
         }
         
@@ -55,22 +55,22 @@ public class Principal {
         
         int k = 1;
         for (Trabajo i : trabajos){
-            System.out.println("\tTrabajo n°" + k + ": " + i.Titulo);
+            System.out.println("\tTrabajo n°" + k + ": " + i.getTitulo());
             k++;
         }
         
         
         System.out.println("\n\nLos elementos del ArrayList modificados son: \n");
         
-        unTrabajo1.Titulo = "Maquinola";
-        unTrabajo2.Titulo = "Troesma";
-        unTrabajo3.Titulo = "Lince Iberico";
-        unTrabajo4.Titulo = "Maestro con casco";
-        unTrabajo5.Titulo = "Cachalote";
+        unTrabajo1.setTitulo("Maquinola");
+        unTrabajo2.setTitulo("Troesma");
+        unTrabajo3.setTitulo("Lince Iberico");
+        unTrabajo4.setTitulo("Maestro con casco");
+        unTrabajo5.setTitulo("Cachalote");
         
         int l = 1;
         for (Trabajo i : trabajos){
-            System.out.println("\tTrabajo n°" + l + ": " + i.Titulo);
+            System.out.println("\tTrabajo n°" + l + ": " + i.getTitulo());
             l++;
         }
     }

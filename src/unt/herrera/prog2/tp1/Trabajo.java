@@ -10,9 +10,17 @@ package unt.herrera.prog2.tp1;
  * @author gabinete
  */
 public class Trabajo {
-    String Titulo;
+    private String Titulo;
 
    
     public void mostrar(){
+    }
+
+    public String getTitulo() {
+        return Titulo;
+    }
+
+    public void setTitulo(String Titulo) {
+        this.Titulo = Titulo;
     }
 }
