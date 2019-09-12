@@ -11,7 +11,8 @@ package unt.herrera.prog2.tp1;
  */
 public class Trabajo {
     String Titulo;
-    
+
+   
     public void mostrar(){
     }
 }
