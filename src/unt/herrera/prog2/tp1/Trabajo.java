@@ -14,6 +14,7 @@ public class Trabajo {
 
    
     public void mostrar(){
+        System.out.println("Bro\n");
     }
 
     public String getTitulo() {
